@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <!-- Tudo que não aparece no site -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Texto que aparece na aba -->
   <title>Portfólio Web</title>
+
+<!-- Google Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
+  <style>
+  /* CSS */
+  body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color:#ffffff;
+  color: #000000;
+  }
+
+  #avatar {
+  border-radius: 200px;
+  padding: 20px;
+  width: 200px;
+  }
+
+  h1 {
+  font-family:Verdana, Helvetica, Tahoma, sans-serif;
+  background-color:#ff6b6b;
+  padding: 8px;
+  color:#000000;
+  }
+
+ .botão {
+  background-color: #cbff4d;
+  color: #000000;
+  padding: 10px;
+  text-decoration:double;
+  border-radius: 5px;
+  font-weight: 500;
+  }
+
+  h3 {
+    background-color: #4ecdc4;
+    color: #000000;
+    padding: 5px;
+  }
+
+  </style>
 </head>
+
 <body>
-  <a href="https://www.linkedin.com/in/andmagliarelli/" target="_blank">Sobre mim</a>
-  <a href="https://www.betrybe.com/?" target="_blank">Página que eu gosto</a>
+  
+  <a href="#descricao" class="botão">Sobre mim</a>
+  <a href="https://www.betrybe.com/?" target="_blank" class="botão">Trybe</a>
   <h1 class="meuNome">Anderson Magliarelli</h1>
   <img src="avatar.jpg" width="200px" alt="Este sou eu" id="avatar">
-  <p class="descricao"> Bacharel em Design de Moda com experiência em Design Gráfico, Têxtil, Produto, Interiores, Estilo e Produção de Moda. Possuo mais de 10 anos de experiência nessa área e neste tempo pude desenvolver trabalhos para grandes marcas de moda no Brasil. Em 2023 optei por fazer minha transição de carreira e iniciei meus estudos de <strong>Desenvolvimento Web</strong> na <a href="https://www.betrybe.com/?" target="_blank">Trybe</a></p>
-  <p class="endereço"><strong>Endereço: </strong></p>Jaraguá do Sul - SC
-  <h2>Lista de habilidades</h2>
+  <h3>Sobre Mim:</h3>
+  <p id="descricao"> Bacharel em Design de Moda com experiência em Design Gráfico, Têxtil, Produto, Interiores, Estilo e Produção de Moda. Possuo mais de 10 anos de experiência nessa área e neste tempo pude desenvolver trabalhos para grandes marcas de moda no Brasil. Em 2023 optei por fazer minha transição de carreira e iniciei meus estudos de <strong>Desenvolvimento Web</strong> na <a href="https://www.betrybe.com/?" target="_blank">Trybe</a></p>
+  
+  <h3>Endereço:</h3>
+  <p>Jaraguá do Sul - SC</p>
+
+  <h3>Hard Skills:</h3>
   <ul>
     <li class="javascript">Javascript</li>
     <li class="sql">SQL</li>
     <li class="react">React</li>
     <li class="bootstrap">Bootstrap</li>
-    <li class="metoAgil">Metodologias ágeis</li>
+    <li class="photoshop">Photoshop</li>
+    <li class="illustrator">Illustrator</li>
+    <li class="indesign">InDesign</li>
   </ul>
-  <a href="avatar.jpg">Minha foto</a>
-  <a href="https://www.linkedin.com/in/andmagliarelli/" target="_blank">Linkedin</a>
+  <br>
+  <a href="https://www.instagram.com/amprints.studio/" target="_blank" class="botão" alt="Instagram AM. Prints">Instagram</a>
+
+  <a href="https://www.linkedin.com/in/andmagliarelli/" target="_blank" class="botão" alt="Linkedin Anderson Magliarelli">Linkedin</a>
 </body>
 </html>
